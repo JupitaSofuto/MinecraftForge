@@ -285,7 +285,7 @@ public class ForgeConfigSpec extends UnmodifiableConfigWrapper<UnmodifiableConfi
         private BuilderContext context = new BuilderContext();
         private final Map<List<String>, String> levelComments = new HashMap<>();
         private final Map<List<String>, String> levelTranslationKeys = new HashMap<>();
-        private final List<String> currentPath = new ArrayList<>();
+        protected final List<String> currentPath = new ArrayList<>();
         private final List<ConfigValue<?>> values = new ArrayList<>();
 
         //Object
