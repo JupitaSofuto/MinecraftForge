@@ -956,7 +956,7 @@ public class ForgeConfigSpec extends UnmodifiableConfigWrapper<UnmodifiableConfi
         }
     }
 
-    private static final Joiner LINE_JOINER = Joiner.on("\n");
+    public static final Joiner LINE_JOINER = Joiner.on("\n");
     public static final Joiner DOT_JOINER = Joiner.on(".");
     private static final Splitter DOT_SPLITTER = Splitter.on(".");
     private static List<String> split(String path)
